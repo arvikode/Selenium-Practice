@@ -8,7 +8,7 @@ public class one {
 
         String[] strArray = removeBackSlash.split(" ");
         System.out.println(Arrays.toString(strArray));
-
+        System.out.println("test");
 
     }
 }
