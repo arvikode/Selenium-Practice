@@ -1,14 +1,9 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Map;
+import java.util.Scanner;
 
 public class one {
-    public static void main(String[] args){
-        String str = "abc \"efg ijk\"";
-        String removeBackSlash = str.replace("\"", "");
-        System.out.println(removeBackSlash);
 
-        String[] strArray = removeBackSlash.split(" ");
-        System.out.println(Arrays.toString(strArray));
-        System.out.println("t");
 
-    }
 }
