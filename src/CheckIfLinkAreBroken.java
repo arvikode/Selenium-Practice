@@ -8,7 +8,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-public class FindIfLinkAreBroken {
+public class CheckIfLinkAreBroken {
 
 
     public static void main(String[] args){

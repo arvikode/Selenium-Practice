@@ -2,8 +2,11 @@ import freemarker.core.OutputFormat;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
 import java.io.File;
+import java.time.Duration;
 
 public class TakingScreenshot {
 
@@ -29,5 +32,7 @@ public class TakingScreenshot {
         } finally {
             driver.quit();
         }
+
+
     }
 }
